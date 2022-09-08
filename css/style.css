@@ -1,5 +1,5 @@
 .menu-item {
-  font-family: monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: .9vw;
   line-height: 1.15vw;
   background-color: #fff;
@@ -37,5 +37,53 @@ nav li {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+}
+
+header {
+  margin-top: 35px;
+}
+
+.myname {
+  height: 30vh;
+  background-color: blue;
+  position: relative;
+  z-index: 2;
+}
+
+.hi {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5vw;
+  position: relative;
+  right: 25px;
+  bottom: 150px;
+}
+
+.Eden {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20vw;
+  text-align: center;
+  position: relative;
+  right: 50px;
+  bottom: 200px;
+}
+
+.headervideo {
+  height: 50vh;
+  background-color: red;
+}
+
+@media only screen and (max-width: 1400px) {
+  .hi {
+    font-size: 5vw;
+    position: relative;
+    right: 25px;
+    bottom: 150px;
+  }
+  
+  .Eden {
+    font-size: 20vw;
+    position: relative;
+    right: 50px;
+    bottom: 135px;
+  }
 }
