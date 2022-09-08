@@ -1,25 +1,41 @@
 .menu-item {
-    font-family: monospace;
-    font-size: .9vw;
-    line-height: 1.15vw;
-    background-color: #fff;
-    border-bottom: solid 1px #131313;
-    padding: 0.5vw 20px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+  font-family: monospace;
+  font-size: .9vw;
+  line-height: 1.15vw;
+  background-color: #fff;
+  border-bottom: solid 1px #131313;
+  padding: 0.5vw 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #5eabe7;
-	display: table;
-	width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5eabe7;
+  display: table;
+  width: 100%;
 }
 
 nav li {
-	display: table-cell
+  display: table-cell;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
