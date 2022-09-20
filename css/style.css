@@ -2,8 +2,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: .9vw;
   line-height: 1.15vw;
-  background-color: #fff;
-  border-bottom: solid 1px #131313;
+  background-color: #ecf79b;
+  border-bottom: solid 1px #fff;
   padding: 0.5vw 20px;
   position: fixed;
   width: 100%;
@@ -24,7 +24,7 @@ nav li {
   display: table-cell;
 }
 
-.wrapper {
+/* .wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
@@ -37,13 +37,13 @@ nav li {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-}
+} */
 
 header {
   margin-top: 35px;
 }
 
-.myname {
+/* .myname {
   height: 30vh;
   background-color: blue;
   position: relative;
@@ -86,4 +86,82 @@ header {
     right: 50px;
     bottom: 135px;
   }
+} */
+
+/* .name-wrapper {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin-top: -150px;
+}
+
+.header-image {
+  width: 100%;
+} */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #ecf79b;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 150px;
+  position: relative;
+  top: 200px;
+  color: #5eabe7;
+}
+
+.hi {
+  position: relative;
+  bottom: 50px;
+  font-size: 50px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.ilc-inline-text {
+  display: flex;
+}
+
+.ilc-inline-text-info {
+  display: block;
+  flex: 1 1 auto;
+}
+
+.ilc-inline-text-name {
+  display: inline;
+}
+
+.ilc-inline-text-img-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.ilc-inline-text-name span.ilc-words-on-line-above-a {
+  position: relative;
+  z-index: 1;
+}
+
+.ilc-inline-text-small-text {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  white-space: normal;
+  max-width: 100px;
+  top: 14px;
+  font-size: 15px;
+  line-height: 1.1em;
+  transition: all ease-in-out 200ms;
 }
