@@ -24,83 +24,10 @@ nav li {
   display: table-cell;
 }
 
-/* .wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-}
-
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-} */
-
 header {
   margin-top: 35px;
 }
 
-/* .myname {
-  height: 30vh;
-  background-color: blue;
-  position: relative;
-  z-index: 2;
-}
-
-.hi {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 5vw;
-  position: relative;
-  right: 25px;
-  bottom: 150px;
-}
-
-.Eden {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20vw;
-  text-align: center;
-  position: relative;
-  right: 50px;
-  bottom: 200px;
-}
-
-.headervideo {
-  height: 50vh;
-  background-color: red;
-}
-
-@media only screen and (max-width: 1400px) {
-  .hi {
-    font-size: 5vw;
-    position: relative;
-    right: 25px;
-    bottom: 150px;
-  }
-  
-  .Eden {
-    font-size: 20vw;
-    position: relative;
-    right: 50px;
-    bottom: 135px;
-  }
-} */
-
-/* .name-wrapper {
-  text-align: center;
-  font-size: 5vw;
-}
-
-.image-wrapper {
-  text-align: center;
-  margin-top: -150px;
-}
-
-.header-image {
-  width: 100%;
-} */
 
 .container {
   width: 100%;
@@ -128,40 +55,4 @@ header {
 .img {
   width: 100%;
   height: auto;
-}
-
-.ilc-inline-text {
-  display: flex;
-}
-
-.ilc-inline-text-info {
-  display: block;
-  flex: 1 1 auto;
-}
-
-.ilc-inline-text-name {
-  display: inline;
-}
-
-.ilc-inline-text-img-wrapper {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-}
-
-.ilc-inline-text-name span.ilc-words-on-line-above-a {
-  position: relative;
-  z-index: 1;
-}
-
-.ilc-inline-text-small-text {
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-  white-space: normal;
-  max-width: 100px;
-  top: 14px;
-  font-size: 15px;
-  line-height: 1.1em;
-  transition: all ease-in-out 200ms;
 }
