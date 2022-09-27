@@ -1,4 +1,58 @@
-.menu-item {
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ecf79b;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav span {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #5eabe7;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+/* .menu-left {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .9vw;
+  line-height: 1.15vw;
+  background-color: #ecf79b;
+  border-bottom: solid 1px #fff;
+  padding: 0.5vw 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.menu-right {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: .9vw;
   line-height: 1.15vw;
@@ -22,18 +76,20 @@ nav ul {
 
 nav li {
   display: table-cell;
-}
+} */
 
 header {
   margin-top: 35px;
 }
 
+body {
+  margin: 0px;
+}
 
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   background-color: #ecf79b;
 }
 
