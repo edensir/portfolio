@@ -165,3 +165,52 @@ header {
   line-height: 1.1em;
   transition: all ease-in-out 200ms;
 }
+
+.marquee-container {
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+  .marquee {
+    left: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+
+  .marquee2 {
+    animation-delay: 15s;
+  }
+  b {
+    padding-left: 10px;
+  }
+
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  font-size: 40px;
+}
+
+.button4:hover {
+  background-color: #000000;
+  color: white
+}
+
+.symbol {
+  font-size: 70px;
+}
