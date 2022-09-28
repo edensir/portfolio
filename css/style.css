@@ -2,9 +2,10 @@
 .topnav {
   background-color: #ecf79b;
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  width: 100%; /* Full width */
+  position: fixed;
+  width: 100%;
   top:0;
+  z-index: 999;
 }
 
 /* Style the links inside the navigation bar */
@@ -82,11 +83,12 @@ nav li {
 } */
 
 header {
-  margin-top: 35px;
+  margin-top: 0px;
 }
 
 body {
   margin: 0px;
+  background-color: #ecf79b;
 }
 
 .container {
