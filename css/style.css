@@ -1,16 +1,12 @@
-body {
-
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
   overflow: hidden;
   position: fixed;
   width: 100%;
-  top:0;
+  top: 0px;
   z-index: 999;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   border-bottom: solid 1px #131313;
 }
 
@@ -41,7 +37,7 @@ color: white;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #5eabe7;
+background-color: #f2c96c;
 color: white;
 }
 
@@ -68,6 +64,9 @@ body {
 
 .title {
   width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
   font-size: 150px;
   position: relative;
@@ -89,6 +88,7 @@ body {
 /* Main text */
 .main-text-div {
   display: flex;
+  text-align: center;
 }
 
 .main-text-div-inner {
@@ -98,6 +98,7 @@ body {
 
 .main-text {
   display: inline;
+  text-align: center;
 }
 
 h1:first-child, h2:first-child, h3:first-child {
@@ -139,9 +140,24 @@ img {
 }
 
 .marquee-container {
-  height: 30px;
+  height: 60px;
+  font-size: 18px;
+  font-family: sans-serif;
   overflow: hidden;
-  line-height: 30px;
+  line-height: 60px;
+  border-bottom: solid 1px #131313;
+  border-top: solid 1px #131313;
+}
+
+.bubble-link-arrow {
+  text-transform: uppercase;
+  border: solid 1px #131313;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
   .marquee {
