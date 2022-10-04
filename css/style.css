@@ -287,6 +287,11 @@ b {
   border-bottom: 1px;
 }
 
+.buttons-symbols {
+  position: relative;
+  top: 500px;
+}
+
 .button-symbol-item {
   display: inline-block;
   position: relative;
