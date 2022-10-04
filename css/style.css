@@ -116,7 +116,7 @@ body {
   display: flex;
   text-align: center;
   padding: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
   font-size: 24px;
 }
 
@@ -281,15 +281,20 @@ b {
   overflow: hidden;
   position: relative;
   white-space: nowrap;
-  animation: marquee 30s linear infinite;
+  animation: marquee 100s linear infinite;
   background-color: #cfda94;
   text-align: center;
   border-bottom: 1px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  border-bottom: solid 1px #131313;
+  border-top: solid 1px #131313;
 }
 
 .buttons-symbols {
   position: relative;
-  top: 500px;
 }
 
 .button-symbol-item {
