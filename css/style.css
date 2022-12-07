@@ -1,3 +1,10 @@
+
+/* Generic body styling */
+body {
+  margin: 0px;
+  background-color: white;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
@@ -33,6 +40,7 @@
   margin: 8px;
 }
 
+/* Contact button in menu bar */
 .contact-button {
   background-image: linear-gradient(236deg, #e0cae2, #feeeb3 51%, #d5e2db);
   border-style: solid;
@@ -76,14 +84,9 @@
   float: right;
 }
 
-
+/* Header top margin */
 header {
   margin-top: 0px;
-}
-
-body {
-  margin: 0px;
-  background-color: white;
 }
 
 .container {
@@ -322,114 +325,6 @@ b {
 }
 
 
-
-@media only screen and (max-width: 1340px) {
-  .main-text-div {
-    padding-left: 15vw;
-    padding-right: 15vw;
-  }
-  .btn {
-    font-size: 33px;
-  }
-}
-@media only screen and (max-width: 1040px) {
-  .main-text-div {
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
-  .btn {
-    font-size: 27px;
-  }
-  .eden-emoji {
-    max-width: 150px;
-    max-height: 150px;
-  }
-}
-@media only screen and (max-width: 840px) {
-  .main-text-div {
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
-  .buttons-symbols {
-    top: 200px;
-  }
-  .btn {
-    font-size: 23px;
-  }
-  .topnav-right a {
-    font-size: 14px;
-  }
-  .eden-emoji {
-    max-width: 100px;
-    max-height: 100px;
-  }
-  .main-text-img-wrapper {
-    font-size: 22px;
-  }
-  .get-to-know-me {
-    font-size: 24px;
-  }
-  b {
-    font-size: 26px;
-  }
-  .edenname {
-    font-size: 28px;
-  }
-}
-@media only screen and (max-width: 700px) {
-  #datetime {
-    display: none;
-  }
-}
-@media only screen and (max-width: 640px) {
-  .main-text-div {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-  }
-  .buttons-symbols {
-    top: 250px;
-  }
-  .btn {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 545px) {
-  .main-text-div {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-  }
-  .topnav-right a {
-    font-size: 12px;
-  }
-  .buttons-symbols {
-    top: 300px;
-  }
-  .topnav-right a {
-    font-size: 12;
-  }
-}
-@media only screen and (max-width: 469px) {
-  .buttons-symbols {
-    top: 500px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .buttons-symbols {
-    top: 600px;
-  }
-  .topnav-right a {
-    font-size: 10px;
-  }
-}
-@media only screen and (max-width: 365px) {
-  .buttons-symbols {
-    top: 700px;
-  }
-  .topnav-right a {
-    font-size: 8px;
-  }
-}
-
 .button-symbol-item {
   display: inline-block;
   position: relative;
@@ -458,4 +353,114 @@ b {
   text-align: center;
   vertical-align: middle;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Rules */
+
+@media only screen and (max-width: 1340px) {
+  .main-text-div {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  .btn {
+    font-size: 33px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .main-text-div {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .btn {
+    font-size: 27px;
+  }
+  .eden-emoji {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .main-text-div {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .btn {
+    font-size: 23px;
+  }
+  .topnav-right a {
+    font-size: 14px;
+  }
+  .eden-emoji {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .main-text-img-wrapper {
+    font-size: 22px;
+  }
+  .get-to-know-me {
+    font-size: 24px;
+  }
+  b {
+    font-size: 26px;
+  }
+  .edenname {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #datetime {
+    display: none;
+  }
+  .main-text-div {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .main-text-div {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+  .topnav-right a {
+    font-size: 12px;
+  }
+  .buttons-symbols {
+    top: 50px;
+  }
+  .topnav-right a {
+    font-size: 12;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .buttons-symbols {
+    top: 160px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .buttons-symbols {
+    top: 220px;
+  }
+  .topnav-right a {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .buttons-symbols {
+    top: 300px;
+  }
+  .topnav-right a {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .buttons-symbols {
+    top: 350px;
+  }
+  .topnav-right a {
+    font-size: 8px;
+  }
 }
