@@ -14,13 +14,13 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-float: left;
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 16px;
-margin: 8px;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 8px;
 }
 
 .topnav span {
@@ -31,44 +31,49 @@ margin: 8px;
   text-decoration: none;
   font-size: 16px;
   margin: 8px;
-  }
+}
 
-  .contact-button {
-    background-image: linear-gradient(236deg, #e0cae2, #feeeb3 51%, #d5e2db);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 25px;
-    letter-spacing: 2px;
-    margin-right: 30px;
-  }
+.contact-button {
+  background-image: linear-gradient(236deg, #e0cae2, #feeeb3 51%, #d5e2db);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  margin-right: 30px;
+}
 
-  .contact-button:hover {
-    background-image: linear-gradient(236deg, #e0cae2, #feeeb3 51%, #d5e2db);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 25px;
-    letter-spacing: 2px;
-    font-weight: bold;
-  }
+.contact-button:hover {
+  background-image: none !important;
+  background-color: #604c3f;
+  cursor: pointer;
+  color: #ccd997;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #ddd;
-color: white;
-border-radius: 25px;
+  background-color: #604c3f;
+  cursor: pointer;
+  color: #ccd997;
+  border-radius: 25px;
+  font-weight: bold;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #f2c96c;
-color: white;
-font-weight: bold;
-border-radius: 25px;
+  background-color: #f2c96c;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-float: right;
+  float: right;
 }
 
 
@@ -109,6 +114,7 @@ body {
 .img {
   width: 100%;
   height: auto;
+  margin-top: 30px;
 }
 
 /* Main text */
@@ -136,9 +142,12 @@ body {
   display: inline;
   text-align: center;
   font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1:first-child, h2:first-child, h3:first-child {
+h1:first-child,
+h2:first-child,
+h3:first-child {
   margin-top: 0;
 }
 
@@ -169,8 +178,8 @@ img {
   display: inline-block;
   vertical-align: top;
   white-space: normal;
-  max-width: 100px;
-  font-size: 15px;
+  max-width: 180px;
+  font-size: 25px;
   line-height: 1.1em;
   transition: all ease-in-out 200ms;
   border: solid;
@@ -178,12 +187,16 @@ img {
   padding: 5px;
   margin-left: 10px;
   cursor: pointer;
+  background-color: #ccd997;
+  color: #604c3f;
+
 }
 
 .small-text:hover {
-  background-color: #7a6151;
+  background-color: #604c3f;
   cursor: pointer;
-  color: white;
+  color: #ccd997;
+  font-weight: bold;
 }
 
 a {
@@ -195,7 +208,7 @@ a {
   background-color: transparent;
 }
 
-.marquee-container {
+/* .marquee-container {
   height: 60px;
   font-size: 18px;
   font-family: sans-serif;
@@ -204,11 +217,11 @@ a {
   border-bottom: solid 1px #131313;
   border-top: solid 7px #131313;
   margin-top: -10px;
-}
+} */
 
 .bubble-link-arrow {
   text-transform: uppercase;
-  border: solid 1px #131313;
+  border: solid 1px transparant;
   border-radius: 10px;
   margin-left: 5px;
   margin-right: 5px;
@@ -218,12 +231,12 @@ a {
 }
 
 .bubble-link-arrow:hover {
-  background-color: #7a6151;
+  background-color: #604c3f;
   cursor: pointer;
   color: white;
 }
 
-  .marquee {
+/* .marquee {
     left: 100%;
     width: 100%;
     overflow: hidden;
@@ -237,29 +250,35 @@ a {
   }
   b {
     padding-left: 10px;
-  }
+  } */
 
 
-@keyframes marquee {
+/* @keyframes marquee {
   0% {
     left: 100%;
   }
   100% {
     left: -100%
   }
-}
+} */
 
-.button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #000000;
+.btn {
+  background-color: #f2c96c;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
   border-radius: 30px;
   font-size: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.button4:hover {
-  background-color: #000000;
-  color: white
+.btn:hover {
+  background-color: #604c3f;
+  cursor: pointer;
+  color: #ccd997;
 }
 
 .symbol {
@@ -278,7 +297,7 @@ b {
   font-weight: bold;
 }
 
-.openforwork-banner {
+/* .openforwork-banner {
   left: 100%;
   width: 100%;
   height: 50px;
@@ -295,16 +314,127 @@ b {
   line-height: 50px;
   border-bottom: solid 1px #131313;
   border-top: solid 1px #131313;
-}
+} */
 
 .buttons-symbols {
   position: relative;
   text-align: center;
 }
 
+
+
+@media only screen and (max-width: 1340px) {
+  .main-text-div {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  .btn {
+    font-size: 33px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .main-text-div {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .btn {
+    font-size: 27px;
+  }
+  .eden-emoji {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .main-text-div {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .buttons-symbols {
+    top: 200px;
+  }
+  .btn {
+    font-size: 23px;
+  }
+  .topnav-right a {
+    font-size: 14px;
+  }
+  .eden-emoji {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .main-text-img-wrapper {
+    font-size: 22px;
+  }
+  .get-to-know-me {
+    font-size: 24px;
+  }
+  b {
+    font-size: 26px;
+  }
+  .edenname {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #datetime {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .main-text-div {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+  .buttons-symbols {
+    top: 250px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .main-text-div {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+  .topnav-right a {
+    font-size: 12px;
+  }
+  .buttons-symbols {
+    top: 300px;
+  }
+  .topnav-right a {
+    font-size: 12;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .buttons-symbols {
+    top: 500px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .buttons-symbols {
+    top: 600px;
+  }
+  .topnav-right a {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .buttons-symbols {
+    top: 700px;
+  }
+  .topnav-right a {
+    font-size: 8px;
+  }
+}
+
 .button-symbol-item {
   display: inline-block;
   position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .eden-emoji {
