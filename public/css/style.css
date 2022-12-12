@@ -181,13 +181,13 @@ img {
   display: inline-block;
   vertical-align: top;
   white-space: normal;
-  max-width: 180px;
+  max-width: 200px;
   font-size: 25px;
   line-height: 1.1em;
   transition: all ease-in-out 200ms;
   border: solid;
   border-radius: 25px;
-  padding: 5px;
+  padding: 10px;
   margin-left: 10px;
   cursor: pointer;
   background-color: #ccd997;
@@ -266,6 +266,7 @@ b {
 .buttons-symbols {
   position: relative;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 
@@ -365,9 +366,18 @@ b {
 }
 
 @media only screen and (max-width: 545px) {
-  .main-text-div {
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+  .main-text-img-wrapper {
+    font-size: 12px;
+    line-height: 3em;
+  }
+  .get-to-know-me {
+    font-size: 14px;
+  }
+  b {
+    font-size: 16px;
+  }
+  .edenname {
+    font-size: 18px;
   }
   .topnav-right a {
     font-size: 12px;
@@ -376,20 +386,29 @@ b {
     top: 50px;
   }
   .topnav-right a {
-    font-size: 12;
+    font-size: 12px;
+  }
+  .img {
+    padding-top: 70px;
   }
 }
 @media only screen and (max-width: 469px) {
   .buttons-symbols {
-    top: 160px;
+    top: 120px;
   }
 }
 @media only screen and (max-width: 400px) {
   .buttons-symbols {
-    top: 220px;
+    top: -130px;
   }
   .topnav-right a {
     font-size: 10px;
+  }
+
+  .main-text-div {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 365px) {
@@ -397,7 +416,7 @@ b {
     top: 300px;
   }
   .topnav-right a {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 300px) {
@@ -405,6 +424,6 @@ b {
     top: 350px;
   }
   .topnav-right a {
-    font-size: 8px;
+    font-size: 12px;
   }
 }

@@ -1,5 +1,0 @@
-- moving banner fixen
-- text font
-- text size
-- cta button size bigger text and 'go to my linkedin'
-- buttons below are linking to the certificates part on linkedin
